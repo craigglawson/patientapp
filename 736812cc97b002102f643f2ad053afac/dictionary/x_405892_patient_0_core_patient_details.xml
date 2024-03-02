@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ce89ecc97b002102f643f2ad053af4e" label="Core Patient Details" max_length="40" name="x_405892_patient_0_core_patient_details" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Current Address" max_length="32" name="patient_current_address" reference="x_405892_patient_0_address_list" type="reference"/>
+        <element label="Date of Birth" max_length="40" name="patient_date_of_birth" type="glide_date"/>
+        <element label="Ethnicity" max_length="32" name="patient_ethnicity" reference="x_405892_patient_0_ethnicity_types" type="reference"/>
+        <element label="First Name" max_length="40" name="patient_first_name" type="string"/>
+        <element label="Gender" max_length="32" name="patient_gender" reference="x_405892_patient_0_gender_types" type="reference"/>
+        <element label="Middle Name(s)" max_length="40" name="patient_middle_names" type="string"/>
+        <element label="Salutation" max_length="32" name="patient_salutation" reference="x_405892_patient_0_salutation_list" type="reference"/>
+        <element label="Surname" max_length="40" name="patient_surname" type="string"/>
+        <index name="index">
+            <element name="patient_current_address"/>
+        </index>
+        <index name="index2">
+            <element name="patient_ethnicity"/>
+        </index>
+        <index name="index3">
+            <element name="patient_gender"/>
+        </index>
+        <index name="index4">
+            <element name="patient_salutation"/>
+        </index>
+    </element>
+</database>

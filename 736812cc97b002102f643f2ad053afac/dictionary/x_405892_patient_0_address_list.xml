@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a979124097f002102f643f2ad053afdd" label="Address List" max_length="40" name="x_405892_patient_0_address_list" type="collection">
+        <element label="Address Line 1" max_length="40" name="address_line_1" type="string"/>
+        <element label="Address Line 2" max_length="40" name="address_line_2" type="string"/>
+        <element label="Address Line 3" max_length="40" name="address_line_3" type="string"/>
+        <element label="Address Line 4" max_length="40" name="address_line_4" type="string"/>
+        <element label="Address Line 5" max_length="40" name="address_line_5" type="string"/>
+        <element label="County" max_length="40" name="county" reference="x_405892_patient_0_county_list" type="reference"/>
+        <element label="Full Address" max_length="40" name="full_address" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Postcode" max_length="40" name="postcode" type="string"/>
+    </element>
+</database>

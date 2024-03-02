@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="22395a0097f002102f643f2ad053afc2" label="Ethnicity Types" max_length="40" name="x_405892_patient_0_ethnicity_types" type="collection">
+        <element label="Ethnicity Types" max_length="40" name="ethnicity_types" type="string"/>
+    </element>
+</database>

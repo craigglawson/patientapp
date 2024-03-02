@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91d95e4097f002102f643f2ad053afc2" label="Salutation List" max_length="40" name="x_405892_patient_0_salutation_list" type="collection">
+        <element label="Salutation Type" max_length="40" name="salutation_type" type="string"/>
+    </element>
+</database>
